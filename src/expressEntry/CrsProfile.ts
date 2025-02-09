@@ -1,13 +1,14 @@
 import { ObjectId } from 'mongodb';
 import { Database } from '../database/Database';
-import { Option } from './Option';
+import { Option, Key } from './Option';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
 class CrsProfile {
-    private head: Question | null = null;
-    private current: Question | null = null;
+    public head: Question | null = null;
+    private map: WeakMap<Key, Question> = new WeakMap();
+    private childrenCache: Map<Key, Question[]> = new Map();
 
     constructor() {}
 
@@ -21,25 +22,32 @@ class CrsProfile {
         if (optionData) {
             const option = new Option(optionData.key, optionData.value, optionData.score);
             this.head = new Question(option);
-            this.current = this.head;
-            console.log(option.key);
+            this.map.set(option.key, this.head);
         } else {
             throw new Error(`Option with ObjectId ${optionId} not found`);
         }
     }
 
-    public async getNextOptions(value: string): Promise<Option[]> {
-        if (!this.current) {
-            throw new Error('Option is not initialized');
+    public async getNextQuestions(curKey: Key, value: string): Promise<Option[]> {
+        const currentQuestion = this.map.get(curKey);
+        if (!currentQuestion) {
+            throw new Error(`The selected option ${curKey} not found`);
         }
 
-        const nextOptions = await this.current.option.getNextOptions(value);
-        if (nextOptions.length > 0) {
-            const nextLink = new Question(nextOptions[0]);
-            this.current.next = nextLink;
-            this.current = nextLink;
+        const cachedChildren = this.childrenCache.get(curKey);
+        if (cachedChildren) {
+            currentQuestion.next = cachedChildren;
+            return cachedChildren.map(question => question.option);
         }
 
+        const nextOptions = await currentQuestion.option.getNextOptions(value);
+        currentQuestion.next = nextOptions.map(option => {
+            const nextQuestion = new Question(option);
+            this.map.set(option.key, nextQuestion);
+            return nextQuestion;
+        });
+
+        this.childrenCache.set(curKey, currentQuestion.next);
         return nextOptions;
     }
 
@@ -47,17 +55,18 @@ class CrsProfile {
         if (!this.head) {
             throw new Error('Option is not initialized');
         }
-
         return this.head.option.getScore();
     }
 
     public reset(): void {
-        this.current = this.head;
+        this.head = null;
+        this.map = new WeakMap();
+        this.childrenCache = new Map();
     }
 }
 
 class Question {
-    public next: Question | null = null;
+    public next: Question[] = [];
 
     constructor(public option: Option) {}
 }

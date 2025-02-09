@@ -9,7 +9,7 @@ async function main() {
 
     try {
         // Example usage of getNextOptions
-        const nextOptions = await crsProfile.getNextOptions("annulledMarriage");
+        const nextOptions = await crsProfile.getNextQuestions(crsProfile.head!.option.key, "commonLaw");
         console.log('Next Options:', nextOptions);
 
         // Example usage of getScore

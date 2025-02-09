@@ -1,6 +1,6 @@
 import { Database } from '../database/Database';
 
-interface Key {
+export interface Key {
     factorKey: FactorKey;
     optionKey: string;
     label: string;
