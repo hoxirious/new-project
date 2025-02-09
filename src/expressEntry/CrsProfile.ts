@@ -1,74 +1,79 @@
 import { ObjectId } from 'mongodb';
 import { Database } from '../database/Database';
-import { Option, Key } from './Option';
+import { Option, Terminal } from './Terminal';
+import { Guid } from '../common/Guid';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
 class CrsProfile {
-    public head: Question | null = null;
-    private map: WeakMap<Key, Question> = new WeakMap();
-    private childrenCache: Map<Key, Question[]> = new Map();
+    public head?: Terminal;
+    private map: Map<Guid, Terminal> = new Map();
 
     constructor() {}
 
     public async initializeOptions(): Promise<void> {
         const db = await Database.getInstance();
-        const optionsCollection = db.getDb().collection('options');
+        const optionsCollection = db.getDb().collection<Terminal>('terminals');
 
-        const optionId = process.env.CRS_OPTION_INIT_ID as string;
-        const optionData = await optionsCollection.findOne({ _id: new ObjectId(optionId) });
+        const terminalId = process.env.CRS_TERMINAL_INIT_ID as string;
+        const terminalData = await optionsCollection.findOne({ _id: new ObjectId(terminalId) });
 
-        if (optionData) {
-            const option = new Option(optionData.key, optionData.value, optionData.score);
-            this.head = new Question(option);
-            this.map.set(option.key, this.head);
+        if (terminalData) {
+            const valueGuidToChildrenGuids = new Map<Guid, Guid[]>(
+                Object.entries(terminalData.valueGuidToChildrenGuids)
+            );
+
+            const terminal = new Terminal(
+                terminalData.id,
+                valueGuidToChildrenGuids,
+                terminalData.label,
+                terminalData.description,
+                terminalData.options,
+                terminalData.value,
+                terminalData.expressionScore,
+                terminalData.score
+            )
+            this.head = terminal;
+            this.map.set(terminal.id, this.head);
         } else {
-            throw new Error(`Option with ObjectId ${optionId} not found`);
+            throw new Error(`Option with ObjectId ${terminalId} not found`);
         }
     }
 
-    public async getNextQuestions(curKey: Key, value: string): Promise<Option[]> {
-        const currentQuestion = this.map.get(curKey);
-        if (!currentQuestion) {
-            throw new Error(`The selected option ${curKey} not found`);
+    public async setValue(id: Guid, value: Option): Promise<void> {
+        const terminal = this.map.get(id);
+        if (!terminal) {
+            throw new Error(`Option with GUID ${id} not found`);
         }
 
-        const cachedChildren = this.childrenCache.get(curKey);
-        if (cachedChildren) {
-            currentQuestion.next = cachedChildren;
-            return cachedChildren.map(question => question.option);
+        const nextTerminals =  await terminal.setValue(value);
+        for (const nextTerminal of nextTerminals) {
+            this.map.set(nextTerminal.id, nextTerminal);
         }
-
-        const nextOptions = await currentQuestion.option.getNextOptions(value);
-        currentQuestion.next = nextOptions.map(option => {
-            const nextQuestion = new Question(option);
-            this.map.set(option.key, nextQuestion);
-            return nextQuestion;
-        });
-
-        this.childrenCache.set(curKey, currentQuestion.next);
-        return nextOptions;
     }
 
-    public getScore(): number {
+    public getAllTerminals(): Terminal[] {
         if (!this.head) {
-            throw new Error('Option is not initialized');
+            throw new Error('Head terminal is not initialized');
         }
-        return this.head.option.getScore();
+
+        const terminals: Terminal[] = [];
+        const stack: Terminal[] = [this.head];
+
+        while (stack.length > 0) {
+            const current = stack.pop()!;
+            terminals.push(current);
+
+            for (const childTerminal of current.children) {
+                if (childTerminal) {
+                    stack.push(childTerminal);
+                }
+            }
+        }
+
+        return terminals;
     }
-
-    public reset(): void {
-        this.head = null;
-        this.map = new WeakMap();
-        this.childrenCache = new Map();
-    }
-}
-
-class Question {
-    public next: Question[] = [];
-
-    constructor(public option: Option) {}
 }
 
 export { CrsProfile };
