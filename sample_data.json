@@ -2,19 +2,23 @@
   {
     "id": "123e4567-e89b-12d3-a456-426614174000",
     "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174004": ["123e4567-e89b-12d3-a456-426614174001", "123e4567-e89b-12d3-a456-426614174002"],
-      "123e4567-e89b-12d3-a456-426614174005": ["123e4567-e89b-12d3-a456-426614174003"]
+      "123e4567-e89b-12d3-a456-426614174004": [
+        "123e4567-e89b-12d3-a456-426614174001"
+      ],
+      "123e4567-e89b-12d3-a456-426614174005": [
+        "123e4567-e89b-12d3-a456-426614174001", "123e4567-e89b-12d3-a456-426614174002"
+      ]
     },
-    "label": "Sample Terminal",
-    "description": "This is a sample terminal description.",
+    "label": "What is your marital status?",
+    "description": "",
     "options": [
       {
         "id": "123e4567-e89b-12d3-a456-426614174004",
-        "label": "Option 1"
+        "label": "Annulled Marriage"
       },
       {
         "id": "123e4567-e89b-12d3-a456-426614174005",
-        "label": "Option 2"
+        "label": "Common Law"
       }
     ],
     "value": null,
@@ -30,16 +34,16 @@
   {
     "id": "123e4567-e89b-12d3-a456-426614174001",
     "valueGuidToChildrenGuids": {},
-    "label": "Child Terminal 1",
-    "description": "This is a child terminal description.",
+    "label": "How old are you?",
+    "description": "",
     "options": [
       {
         "id": "123e4567-e89b-12d3-a456-426614174006",
-        "label": "Child Option 1"
+        "label": "18-24"
       },
       {
         "id": "123e4567-e89b-12d3-a456-426614174007",
-        "label": "Child Option 2"
+        "label": "25-34"
       }
     ],
     "value": null,
@@ -50,16 +54,16 @@
   {
     "id": "123e4567-e89b-12d3-a456-426614174002",
     "valueGuidToChildrenGuids": {},
-    "label": "Child Terminal 2",
-    "description": "This is another child terminal description.",
+    "label": "Is your spouse or common-law partner a Canadian citizen or permanent resident of Canada?",
+    "description": "",
     "options": [
       {
         "id": "123e4567-e89b-12d3-a456-426614174008",
-        "label": "Child Option 3"
+        "label": "Yes"
       },
       {
         "id": "123e4567-e89b-12d3-a456-426614174009",
-        "label": "Child Option 4"
+        "label": "No"
       }
     ],
     "value": null,

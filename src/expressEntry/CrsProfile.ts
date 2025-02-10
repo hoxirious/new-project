@@ -12,7 +12,7 @@ class CrsProfile {
 
     constructor() {}
 
-    public async initializeOptions(): Promise<void> {
+    public async initializeTerminals(): Promise<void> {
         const db = await Database.getInstance();
         const optionsCollection = db.getDb().collection<Terminal>('terminals');
 
@@ -67,6 +67,7 @@ class CrsProfile {
 
             for (const childTerminal of current.children) {
                 if (childTerminal) {
+                    console.log(`Parent: ${current.id}, Child: ${childTerminal.id}`);
                     stack.push(childTerminal);
                 }
             }

@@ -15,6 +15,8 @@ export interface Option {
 
 export class Terminal {
     public children: Terminal[] = [];
+    // Map of selected value GUID to children GUIDs
+    public cacheChildren = new Map<Guid, Terminal[]>();
 
     constructor(public id: Guid,
                 public valueGuidToChildrenGuids: Map<Guid, Guid[]>, public label: string,
@@ -54,12 +56,18 @@ export class Terminal {
     }
 
     public async setValue(value: Option): Promise<Terminal[]> {
+        // If the value is the same as the current value, return
         if (this.value == value){
             return [];
         }
         this.value = value;
+        if(this.cacheChildren.has(value.id)){
+            this.children = this.cacheChildren.get(value.id)!;
+            return this.children;
+        }
         this.children = []; // Clear old children
         const nextTerminals = await this.getNextTerminal();
+        this.cacheChildren.set(value.id, nextTerminals);
         // If there are no next terminals, then the current terminal is a leaf node
         if (nextTerminals.length == 0) {
             this.updateScore();
