@@ -8,16 +8,18 @@ async function main() {
     await new Promise(resolve => setTimeout(resolve, 1000));
 
     try {
-        // Example usage of getNextOptions
-        const nextOptions = await crsProfile.getNextQuestions(crsProfile.head!.option.key, "commonLaw");
-        console.log('Next Options:', nextOptions);
+        // Example usage of setValue
+        const option = { id: "123e4567-e89b-12d3-a456-426614174005", label: "Option 2" };
+        await crsProfile.setValue("123e4567-e89b-12d3-a456-426614174000", option);
+
+        // Get all terminals
+        const allTerminals = crsProfile.getAllTerminals();
+        console.log('All Terminals:', allTerminals.length, allTerminals);
 
         // Example usage of getScore
-        const score = crsProfile.getScore();
+        await crsProfile.head!.updateScore();
+        const score = crsProfile.head!.score;
         console.log('Current Score:', score);
-
-        // Reset the linked list
-        crsProfile.reset();
     } catch (error: any) {
         console.error('Error:', error);
     }
