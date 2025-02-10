@@ -33,7 +33,12 @@
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174001",
-    "valueGuidToChildrenGuids": {},
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174006": [
+          []
+        ],
+        "123e4567-e89b-12d3-a456-426614174007": []
+    },
     "label": "How old are you?",
     "description": "",
     "options": [
@@ -53,7 +58,10 @@
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174002",
-    "valueGuidToChildrenGuids": {},
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174008": [],
+      "123e4567-e89b-12d3-a456-426614174009": []
+    },
     "label": "Is your spouse or common-law partner a Canadian citizen or permanent resident of Canada?",
     "description": "",
     "options": [
@@ -70,5 +78,601 @@
     "expressionScore": [],
     "score": 0,
     "parent": "123e4567-e89b-12d3-a456-426614174000"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "valueGuidToChildrenGuids": {},
+    "label": "Will your spouse or common-law partner come with you to Canada?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174010",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174011",
+        "label": "No"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174002"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174014": [
+            "123e4567-e89b-12d3-a456-426614174005"
+        ]
+    },
+    "label": "What is your level of education?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174012",
+        "label": "Less than secondary (high) school"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174013",
+        "label": "Secondary (high) school diploma"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174014",
+        "label": "Bachelor's degree or diploma"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174001"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174015": [
+            "123e4567-e89b-12d3-a456-426614174006", "123e4567-e89b-12d3-a456-426614174007"
+        ],
+        "123e4567-e89b-12d3-a456-426614174016": [
+            "123e4567-e89b-12d3-a456-426614174007"
+        ]
+    },
+    "label": "Have you earned a Canadian degree, diploma or certificate?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174015",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174016",
+        "label": "No"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174001"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "valueGuidToChildrenGuids": {},
+    "label": "Choose the best answer to describe this level of education.",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174017",
+        "label": "Two or more certificates, diplomas, or degrees. One must be for a program of three or more years."
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174018",
+        "label": "A Master’s or Ph.D. degree"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174005"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174018": [
+            "123e4567-e89b-12d3-a456-426614174008"
+        ],
+        "123e4567-e89b-12d3-a456-426614174019": [
+            "123e4567-e89b-12d3-a456-426614174009"
+        ]
+    },
+    "label": "Official languages: Canada's official languages are English and French.",
+    "description": "i. Are your test results less than two years old? ",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174018",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174019",
+        "label": "No"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174006"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174008",
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174024": [
+            "123e4567-e89b-12d3-a456-426614174010", "123e4567-e89b-12d3-a456-426614174011", "123e4567-e89b-12d3-a456-426614174012", "123e4567-e89b-12d3-a456-426614174013"
+        ]
+    },
+    "label": "ii. Which language test did you take for your first official language?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174020",
+        "label": "CELPIP"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174021",
+        "label": "IELTS"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174022",
+        "label": "TEF Canada"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174023",
+        "label": "TCF Canada"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174024",
+        "label": "PTE Core"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174007"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174009",
+    "valueGuidToChildrenGuids": {},
+    "label": "Do you have a job offer in Canada?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174022",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174023",
+        "label": "No"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174007"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174010",
+    "valueGuidToChildrenGuids": {},
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174025",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174026",
+        "label": "9"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174008"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174011",
+    "valueGuidToChildrenGuids": {},
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174027",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174028",
+        "label": "9"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174008"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174012",
+    "valueGuidToChildrenGuids": {},
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174029",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174030",
+        "label": "9"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174008"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174013",
+    "valueGuidToChildrenGuids": {},
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174031",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174032",
+        "label": "9"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174008"
+  },
+
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174015",
+    "valueGuidToChildrenGuids": {
+        "123e4567-e89b-12d3-a456-426614174034": [
+            "123e4567-e89b-12d3-a456-426614174016"
+        ]
+    },
+    "label": "i. In the last 10 years, how many years of skilled work experience in Canada do you have? ",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174033",
+        "label": "1 year"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174034",
+        "label": "2 years"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174035",
+        "label": "3 years"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174036",
+        "label": "4 years"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174008"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174016",
+    "valueGuidToChildrenGuids": {
+
+    },
+    "label": "ii. In the last 10 years, how many total years of foreign skilled work experience do you have?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174037",
+        "label": "1 year"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174038",
+        "label": "2 years"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174039",
+        "label": "3 years or more"
+      }
+    ],
+    "value": null,
+    "expressionScore":
+    [
+      {
+        "expression": true,
+        "score": 10
+      }
+    ],
+    "score": 0,
+    "parent": "123e4567-e89b-12d3-a456-426614174015"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174017",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174041": [
+        "123e4567-e89b-12d3-a456-426614174018"
+      ]
+    },
+    "label": "i. Do you have a certificate of qualification from a Canadian province, territory or federal body?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174040",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174041",
+        "label": "No"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174016"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174018",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174043": [
+        "123e4567-e89b-12d3-a456-426614174019"
+      ]
+    },
+    "label": "ii. Do you have a valid job offer supported by a Labour Market Impact Assessment (LMIA)?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174042",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174043",
+        "label": "No"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174017"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174019",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174045": [
+        "123e4567-e89b-12d3-a456-426614174020"
+      ]
+    },
+    "label": "iii. Do you have a nomination certificate from a province or territory?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174044",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174045",
+        "label": "No"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174018"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174020",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174047": [
+        "123e4567-e89b-12d3-a456-426614174021"
+      ]
+    },
+    "label": "Do you or your spouse or common law partner (if they will come with you to Canada) have at least one brother or sister living in Canada who is a citizen or permanent resident?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174046",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174047",
+        "label": "No"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174019"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174021",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174049": [
+        "123e4567-e89b-12d3-a456-426614174022"
+      ]
+    },
+    "label": " What is the highest level of education for which your spouse or common-law partner's has:",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174048",
+        "label": "Less than secondary (high) school"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174049",
+        "label": "Secondary (high) school diploma"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174050",
+        "label": "Bachelor's degree or diploma"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174020"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174022",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174051": [
+        "123e4567-e89b-12d3-a456-426614174023"
+      ]
+    },
+    "label": "Official languages: Canada's official languages are English and French.",
+    "description": "i. Are your test results less than two years old? ",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174050",
+        "label": "Yes"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174051",
+        "label": "No"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174021"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174023",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174053": [
+        "123e4567-e89b-12d3-a456-426614174024"
+      ]
+    },
+    "label": "ii. Which language test did you take for your first official language?",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174052",
+        "label": "CELPIP"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174053",
+        "label": "IELTS"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174054",
+        "label": "TEF Canada"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174055",
+        "label": "TCF Canada"
+      }
+      ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174022"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174024",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174057": [
+        "123e4567-e89b-12d3-a456-426614174025"
+      ]
+    },
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174056",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174057",
+        "label": "9"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174023"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174025",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174059": [
+        "123e4567-e89b-12d3-a456-426614174026"
+      ]
+    },
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174058",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174059",
+        "label": "9"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174024"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174026",
+    "valueGuidToChildrenGuids": {
+  },
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174060",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174061",
+        "label": "9"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174025"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174027",
+    "valueGuidToChildrenGuids": {
+      "123e4567-e89b-12d3-a456-426614174063": [
+        "123e4567-e89b-12d3-a456-426614174028"
+      ]
+    },
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174062",
+        "label": "10-12"
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174063",
+        "label": "9"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "123e4567-e89b-12d3-a456-426614174011"
   }
 ]
