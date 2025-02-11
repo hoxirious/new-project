@@ -1,377 +1,1332 @@
 [
   {
-    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "id": "dd0d0c49-2657-4233-9298-6b683f59143d",
     "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174004": [
-        "123e4567-e89b-12d3-a456-426614174001"
-      ],
-      "123e4567-e89b-12d3-a456-426614174005": [
-        "123e4567-e89b-12d3-a456-426614174001", "123e4567-e89b-12d3-a456-426614174002"
-      ]
     },
-    "label": "What is your marital status?",
+    "label": "1) What is your marital status?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174004",
+        "id": "a21cca9b-5c7d-44ef-a15b-cddfadad2df6",
         "label": "Annulled Marriage"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174005",
+        "id": "5d4e28f2-4f00-4181-b06a-a5cbd2c708c7",
         "label": "Common Law"
-      }
-    ],
-    "value": null,
-    "expressionScore": [
-      {
-        "expression": true,
-        "score": 10
-      }
-    ],
-    "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174000"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174001",
-    "valueGuidToChildrenGuids": {
-        "123e4567-e89b-12d3-a456-426614174006": [
-          []
-        ],
-        "123e4567-e89b-12d3-a456-426614174007": []
-    },
-    "label": "How old are you?",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174006",
-        "label": "18-24"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174007",
-        "label": "25-34"
+        "id": "671982c8-2e88-4069-b10d-1636692c7737",
+        "label": "Divorced / Separated"
+      },
+      {
+        "id": "96e896db-9c2f-48a2-ba67-707ac4bf5c5d",
+        "label": "Legally Separated"
+      },
+      {
+        "id": "b813d1f8-21f2-4ad5-a585-7f1a98311732",
+        "label": "Married"
+      },
+      {
+        "id": "b813d1f8-21f2-4ad5-a585-7f1a98311732",
+        "label": "Never Married / Single"
+      },
+      {
+        "id": " 6b33514c-ece2-48a5-9396-3c6a2d08a319",
+        "label": "Widowed"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174000"
+    "parent": "dd0d0c49-2657-4233-9298-6b683f59143d"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174002",
+    "id": "45501d5f-0236-4b69-bdbe-3435a8a37ae6",
     "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174008": [],
-      "123e4567-e89b-12d3-a456-426614174009": []
     },
-    "label": "Is your spouse or common-law partner a Canadian citizen or permanent resident of Canada?",
+    "label": "3) How old are you?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174008",
+        "id": "5a80b780-3c60-42a7-8e38-5b88b87902f2",
+        "label": "17 years of age or less"
+      },
+      {
+        "id": "3a709d57-6fff-4ead-8e02-9d189926318b",
+        "label": "18 years of age"
+      },
+      {
+        "id": "3ccec6c7-502c-4e42-96c3-65abc3553588",
+        "label": "19 years of age"
+      },
+      {
+        "id": "91d84cff-1307-41c3-a8cc-58575b6d1fb9",
+        "label": "20 years of age"
+      },
+      {
+        "id": "663dc9e1-c9cf-41d2-8dd2-9e283f305b0f",
+        "label": "21 years of age"
+      },
+      {
+        "id": "53339c59-42ca-4874-b845-7dbbef361aff",
+        "label": "22 years of age"
+      },
+      {
+        "id": "55849ad4-74f1-4d31-ba49-fe56ea41b9f6",
+        "label": "23 years of age"
+      },
+      {
+        "id": "8cdbe9e7-9523-4d68-a5a1-4c37f2f0e32c",
+        "label": "24 years of age"
+      },
+      {
+        "id": "1a775e7d-4ab6-4acb-9f9a-67596ab47fd6",
+        "label": "25 years of age"
+      },
+      {
+        "id": "2be729f0-1531-4210-9a1f-fff77af7bb23",
+        "label": "26 years of age"
+      },
+      {
+        "id": "ab915b8a-4bed-43ff-aec5-80a0af448348",
+        "label": "27 years of age"
+      },
+      {
+        "id": "4787f8f4-49ea-401a-94b2-3930caf2947b",
+        "label": "28 years of age"
+      },
+      {
+        "id": "5320bf52-86d9-4fef-8a8b-a27e5bb57b10",
+        "label": "29 years of age"
+      },
+      {
+        "id": "d9cc553f-fff5-4650-900d-ad046b1e8109",
+        "label": "30 years of age"
+      },
+      {
+        "id": "6b87d549-7d45-484b-a315-108713039e2e",
+        "label": "31 years of age"
+      },
+      {
+        "id": "b6838856-38c9-4113-bce6-e33d0fd811a9",
+        "label": "32 years of age"
+      },
+      {
+        "id": "8a3eef87-c51b-436b-b09d-0ec0c5f414de",
+        "label": "33 years of age"
+      },
+      {
+        "id": "4b38d0a2-4f76-49fa-99a7-17280a60b782",
+        "label": "34 years of age"
+      },
+      {
+        "id": "88cdd5e5-2e34-47bc-8c0f-9bddd148af65",
+        "label": "35 years of age"
+      },
+      {
+        "id": "c5e14909-7d0b-4e64-bf92-08d123a6a88b",
+        "label": "36 years of age"
+      },
+      {
+        "id": "8d108ef5-efd4-4700-a971-0b572df8eea6",
+        "label": "37 years of age"
+      },
+      {
+        "id": "20b7dcf9-5b07-4828-a77f-686f3220d046",
+        "label": "38 years of age"
+      },
+      {
+        "id": "e13e1c41-ae55-4237-b7ce-5fa9ab2f4ac6",
+        "label": "39 years of age"
+      },
+      {
+        "id": "0df36de6-cce7-4253-b8b2-c8965e817c57",
+        "label": "40 years of age"
+      },
+      {
+        "id": "1173a788-3f1d-4690-8ae2-8024c43ef64f",
+        "label": "41 years of age"
+      },
+      {
+        "id": "f13616c3-2d49-4d69-ab16-f1f86f8789be",
+        "label": "42 years of age"
+      },
+      {
+        "id": "f585536b-6b58-4adb-b2c2-4bd07b842a65",
+        "label": "43 years of age"
+      },
+      {
+        "id": "c1c0a35f-d8f0-4139-bdf1-942b19a79ff8",
+        "label": "44 years of age"
+      },
+      {
+        "id": "3a20c711-7292-4bcd-98a5-46653073b5de",
+        "label": "45 years of age or more"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "dd0d0c49-2657-4233-9298-6b683f59143d"
+  },
+  {
+    "id": "2c0caca3-d99a-419f-88f5-2ae6d0fe7112",
+    "valueGuidToChildrenGuids": {
+    },
+    "label": "2) i. Is your spouse or common-law partner a Canadian citizen or permanent resident of Canada?",
+    "description": "",
+    "options": [
+      {
+        "id": "227f0aee-37f6-46b6-ba9a-6eca7b477cbc",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174009",
+        "id": "76f1d65a-1eed-4748-a684-7210f1cc6894",
         "label": "No"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174000"
+    "parent": "dd0d0c49-2657-4233-9298-6b683f59143d"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "id": "23fbde51-ae62-4187-ab05-827fc57aa8bb",
     "valueGuidToChildrenGuids": {},
-    "label": "Will your spouse or common-law partner come with you to Canada?",
+    "label": "2) ii. Will your spouse or common-law partner come with you to Canada?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174010",
+        "id": "223a5cf1-662e-4a46-9dd6-984df0c1a713",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174011",
+        "id": "e811b4b1-7ac1-4766-a0bb-1e28c213e801",
         "label": "No"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174002"
+    "parent": "2c0caca3-d99a-419f-88f5-2ae6d0fe7112"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "id": "9cd10605-2ab7-4f3b-b78f-6c86f175f200",
     "valueGuidToChildrenGuids": {
         "123e4567-e89b-12d3-a456-426614174014": [
             "123e4567-e89b-12d3-a456-426614174005"
         ]
     },
-    "label": "What is your level of education?",
+    "label": "4) What is your level of education?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174012",
-        "label": "Less than secondary (high) school"
+        "id": "b58a4bba-8373-4d98-969e-d14224f2adc1",
+        "label": "None or less than secondary (high school)"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174013",
-        "label": "Secondary (high) school diploma"
+        "id": "176f103b-da4f-4ce4-93c0-c7caca275a56",
+        "label": "Secondary diploma (high school graduation)"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174014",
-        "label": "Bachelor's degree or diploma"
+        "id": "493f01d1-527a-490f-998a-9451101281b6",
+        "label": "One-year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "d6aa255b-41fa-4d6f-a021-d96d2033880f",
+        "label": "Two-year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "a08d4505-82e1-42de-8318-8eda224d830a",
+        "label": "Bachelor's degree OR a three or more year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "f4694799-0c5c-4ff3-8300-93d837d9ced2",
+        "label": "Two or more certificates, diplomas, or degrees. One must be for a program of three or more years"
+      },
+      {
+        "id": "c3899ae5-4f07-48a1-8ef6-68a6b0af51ce",
+        "label": "Master's degree, or professional degree needed to practice in a licensed profession (For “professional degree,” the degree program must have been in: medicine, veterinary medicine, dentistry, optometry, law, chiropractic medicine, or pharmacy.)"
+      },
+      {
+        "id": "e3b57942-13cd-4e50-90cc-1abf5e74dc32",
+        "label": "Doctoral level university degree (Ph.D.)"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174001"
+    "parent": "45501d5f-0236-4b69-bdbe-3435a8a37ae6"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174005",
-    "valueGuidToChildrenGuids": {
-        "123e4567-e89b-12d3-a456-426614174015": [
-            "123e4567-e89b-12d3-a456-426614174006", "123e4567-e89b-12d3-a456-426614174007"
-        ],
-        "123e4567-e89b-12d3-a456-426614174016": [
-            "123e4567-e89b-12d3-a456-426614174007"
-        ]
-    },
-    "label": "Have you earned a Canadian degree, diploma or certificate?",
+    "id": "1b20d583-cf8c-4f91-b419-03b6251fa6ce",
+    "valueGuidToChildrenGuids": {},
+    "label": "4b) Have you earned a Canadian degree, diploma or certificate?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174015",
+        "id": "fa566f01-be7c-4e85-ab14-823a18148cd8",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174016",
+        "id": "36732c5d-d352-4004-a4c3-cbb43e7b762d",
         "label": "No"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174001"
+    "parent": "9cd10605-2ab7-4f3b-b78f-6c86f175f200"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "id": "fb1e6336-c7e7-41bb-ba0f-8dd0165c43dd",
     "valueGuidToChildrenGuids": {},
-    "label": "Choose the best answer to describe this level of education.",
+    "label": "4c) Choose the best answer to describe this level of education.",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174017",
-        "label": "Two or more certificates, diplomas, or degrees. One must be for a program of three or more years."
+        "id": "123e4567-e89b-12d3-a456-426614174006",
+        "label": "Secondary (high school) or less"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174018",
-        "label": "A Master’s or Ph.D. degree"
+        "id": "dbfb1ef9-079f-4574-9261-de73cd518287",
+        "label": "One or two-year diploma or certificate"
+      },
+      {
+        "id": "1ad8f7fa-6fd2-4f56-8105-6126d1f5f386",
+        "label": "Degree, diploma or certificate of three years or longer OR a Master's, professional or doctoral degree of at least one academic year"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174005"
+    "parent": "1b20d583-cf8c-4f91-b419-03b6251fa6ce"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174007",
-    "valueGuidToChildrenGuids": {
-        "123e4567-e89b-12d3-a456-426614174018": [
-            "123e4567-e89b-12d3-a456-426614174008"
-        ],
-        "123e4567-e89b-12d3-a456-426614174019": [
-            "123e4567-e89b-12d3-a456-426614174009"
-        ]
-    },
+    "id": "708c0e32-2986-4de6-a3ec-a02edd8206ab",
+    "valueGuidToChildrenGuids": {},
     "label": "Official languages: Canada's official languages are English and French.",
     "description": "i. Are your test results less than two years old? ",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174018",
+        "id": "fe5f2f74-f762-4bb3-82e3-a30345753c8c",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174019",
+        "id": "123e4567-e89b-12d3-a456-426614174018",
         "label": "No"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174006"
+    "parent": "fb1e6336-c7e7-41bb-ba0f-8dd0165c43dd"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174008",
-    "valueGuidToChildrenGuids": {
-        "123e4567-e89b-12d3-a456-426614174024": [
-            "123e4567-e89b-12d3-a456-426614174010", "123e4567-e89b-12d3-a456-426614174011", "123e4567-e89b-12d3-a456-426614174012", "123e4567-e89b-12d3-a456-426614174013"
-        ]
-    },
+    "id": "df906bbd-2143-4e2a-b09c-d0ba593a1ae7",
+    "valueGuidToChildrenGuids": {},
     "label": "ii. Which language test did you take for your first official language?",
     "description": "",
     "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174020",
-        "label": "CELPIP"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174021",
-        "label": "IELTS"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174022",
-        "label": "TEF Canada"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174023",
-        "label": "TCF Canada"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174024",
-        "label": "PTE Core"
-      }
+        {
+          "id": "798fc5e3-5ab1-43d7-9c2f-ef4886666fab",
+          "label": "CELPIP"
+        },
+        {
+          "id": "e4771fd5-c6fb-4290-ae24-51967ce5fd31",
+          "label": "IELTS"
+        },
+        {
+          "id": "5756e9c4-e2f4-4902-b0bd-04d5bd72e0a9",
+          "label": "TEF Canada"
+        },
+        {
+          "id": "596474b7-b0b1-45e7-b8db-4c6734d65606",
+          "label": "TCF Canada"
+        },
+        {
+          "id": "bd6836ff-601e-4328-a54b-aa0636281f98",
+          "label": "PTE Core"
+        }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174007"
+    "parent": "708c0e32-2986-4de6-a3ec-a02edd8206ab"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174009",
-    "valueGuidToChildrenGuids": {},
-    "label": "Do you have a job offer in Canada?",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174022",
-        "label": "Yes"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174023",
-        "label": "No"
-      }
-    ],
-    "value": null,
-    "expressionScore": [],
-    "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174007"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174010",
+    "id": "ea56d907-e0f4-4cdd-9f4b-b3fc62c1f775",
     "valueGuidToChildrenGuids": {},
     "label": "Speaking",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174025",
+        "id": "879927d6-b2da-42f7-b63e-c6e70559e7b9",
         "label": "10-12"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174026",
+        "id": "909474ca-2375-43a3-b435-5223458d8081",
         "label": "9"
+      },
+      {
+        "id": "9c70e1cf-cac8-4428-bd95-06073589fc58",
+        "label": "8"
+      },
+      {
+        "id": "ce64d2cd-821e-4336-8beb-507762faff4e",
+        "label": "7"
+      },
+      {
+        "id": "9c1f6d63-4a42-4254-a556-7fd6651fe705",
+        "label": "6"
+      },
+      {
+        "id": "450329ea-6b9e-458d-9fc6-9540807d6c1f",
+        "label": "5"
+      },
+      {
+        "id": "d2dce9aa-8cb6-401e-87ef-5f931fe66fad",
+        "label": "4"
+      },
+      {
+        "id": "269ca3e3-6eb4-4df3-a3d0-52e29ecfc37e",
+        "label": "M,0-3"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174008"
+    "parent": "df906bbd-2143-4e2a-b09c-d0ba593a1ae7"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174011",
+    "id": "f4e98dd1-bc38-4257-a1f2-5b73bc6b6226",
     "valueGuidToChildrenGuids": {},
     "label": "Listening",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174027",
+        "id": "a4a94c8f-4a21-453a-b106-498defd2dba0",
         "label": "10-12"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174028",
+        "id": "ceba2e44-639a-4e7d-a7b5-cfce64dbb5fc",
         "label": "9"
+      },
+      {
+        "id": "e92d11a7-fae0-4fd6-b6a2-003fa079a907",
+        "label": "8"
+      },
+      {
+        "id": "4f55b488-476a-4084-a66e-4dc8c05c246b",
+        "label": "7"
+      },
+      {
+        "id": "01c2efe8-795c-4405-83e3-67910e7f9f5f",
+        "label": "6"
+      },
+      {
+        "id": "17dc25ee-440d-43c0-9539-8d9b1bbf1cf7",
+        "label": "5"
+      },
+      {
+        "id": "28c853dc-09cf-4bea-863b-1750585fdd5a",
+        "label": "4"
+      },
+      {
+        "id": "e7df07ce-ef8b-4763-a662-3161b799e4d8",
+        "label": "M,0-3"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174008"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174012",
+    "id": "7bd80b87-cff3-4be9-996b-797d877f2ea3",
     "valueGuidToChildrenGuids": {},
     "label": "Reading",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174029",
+        "id": "1382cd52-7617-4dda-8056-c776cdf77915",
         "label": "10-12"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174030",
+        "id": "df604ab7-fe13-4bf6-8959-814e74a29168",
         "label": "9"
+      },
+      {
+        "id": "c83c6434-c565-4eec-a3c3-d318b55afbd2",
+        "label": "8"
+      },
+      {
+        "id": "0bf1f2af-f154-4b5c-ab37-24f9b8e19ccc",
+        "label": "7"
+      },
+      {
+        "id": "220132c9-674d-4298-abb7-ebb2e58afd93",
+        "label": "6"
+      },
+      {
+        "id": "f222a337-0b4a-420b-ac3a-32de5d5473b5",
+        "label": "5"
+      },
+      {
+        "id": "34615b2a-a422-4be0-8d16-d6b3ea57e33e",
+        "label": "4"
+      },
+      {
+        "id": "2a3046f9-9ad6-458f-8487-3213e95ed339",
+        "label": "M,0-3"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174008"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174013",
+    "id": "7ea32c73-3138-42d1-8e9a-c5054f2e35bb",
     "valueGuidToChildrenGuids": {},
     "label": "Writing",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174031",
+        "id": "7ea32c73-3138-42d1-8e9a-c5054f2e35bb",
         "label": "10-12"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174032",
+        "id": "96d43817-cee2-46ca-91a0-083061488bc6",
         "label": "9"
+      },
+      {
+        "id": "a749be9f-711f-4f5d-8669-f17e216ce3a8",
+        "label": "8"
+      },
+      {
+        "id": "cb6d47fe-84a1-4934-983a-eff1f2f6b1ae",
+        "label": "7"
+      },
+      {
+        "id": "479d05a6-ed66-46b0-9258-3692358df06f",
+        "label": "6"
+      },
+      {
+        "id": "98c7efbc-140b-4a20-aee2-4cb4baa9ab1e",
+        "label": "5"
+      },
+      {
+        "id": "e8e12702-a33f-4645-811b-e15ad7616fb1",
+        "label": "4"
+      },
+      {
+        "id": "0c9418ff-fd6b-4416-aa0c-80cf7e6a7caf",
+        "label": "M,0-3"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174008"
+    "parent": "todo"
   },
 
   {
-    "id": "123e4567-e89b-12d3-a456-426614174015",
+    "id": "4cd7cf00-f958-41c6-91b4-6dad9a804578",
+    "valueGuidToChildrenGuids": {},
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "7d0ad2b7-134f-4867-b124-5a6b3b332802",
+        "label": "8.5 - 9.0"
+      },
+      {
+        "id": "4b208b27-bffc-49a8-9e05-77f69a6e1d31",
+        "label": "8.0"
+      },
+      {
+        "id": "8cd888e0-05c5-411d-a9fa-b309c26178d7",
+        "label": "7.5"
+      },
+      {
+        "id": "1c5dc433-9bdc-4eb0-812c-0f6072bdefa5",
+        "label": "6.0-7.0"
+      },
+      {
+        "id": "92e8d8ea-33e9-4c53-b5dc-1d4ea4e1d6a7",
+        "label": "5.5"
+      },
+      {
+        "id": "3059b60d-b0d2-4636-9d0c-99d0da138477",
+        "label": "5.0"
+      },
+      {
+        "id": "91089565-48a7-4497-a476-40523ee50bad",
+        "label": "4.5"
+      },
+      {
+        "id": "b1b2644a-b9c0-4d71-b78c-7686f3d5663c",
+        "label": "0 - 4.0"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "cdff0907-b350-43cc-81fd-c7457d48a182",
+    "valueGuidToChildrenGuids": {},
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "1c60efa0-bbeb-49bd-8a20-56a17bf6668f",
+        "label": "8.0 - 9.0"
+      },
+      {
+        "id": "49bf4f3f-e358-447b-963f-771fbba9ce5d",
+        "label": "7.0 - 7.5"
+      },
+      {
+        "id": "0b72cffc-035b-48d9-83cb-c9ed83e19285",
+        "label": "6.5"
+      },
+      {
+        "id": "047b5267-1a4f-438f-8dec-d78d98b7ce2e",
+        "label": "6.0"
+      },
+      {
+        "id": "514eba1d-ba83-4694-b78f-8b363f135c0d",
+        "label": "5.0 - 5.5"
+      },
+      {
+        "id": "943ae6a5-ee8c-44e4-9a02-dcb63fa81d9b",
+        "label": "4.0 - 4.5"
+      },
+      {
+        "id": "29ddd058-5cd9-4842-b6fe-82bd631a7427",
+        "label": "3.5"
+      },
+      {
+        "id": "ca23735e-f851-4ec2-9d9b-ae0aea1166a1",
+        "label": "0 - 3.0"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "a0648a90-6681-496a-8792-b5b1d80ed3b2",
+    "valueGuidToChildrenGuids": {},
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "c540dab8-0e3a-41c3-92c1-e44b15e3cc39",
+        "label": "7.5 - 9.0"
+      },
+      {
+        "id": "cc79f389-8791-4515-b243-ba6aeeb7f8a1",
+        "label": "7.0"
+      },
+      {
+        "id": "4fe27521-3ee3-4ce7-aec5-22fc562d8968",
+        "label": "6.5"
+      },
+      {
+        "id": "8c1f7b9d-5d15-4dfb-8010-0bcaa6b555df",
+        "label": "5.5"
+      },
+      {
+        "id": "3894c8af-f625-4a46-a321-f2e7ac565b37",
+        "label": "5.0"
+      },
+      {
+        "id": "36471f3c-da43-473d-ab0d-8062329ecd48",
+        "label": "4.0 - 4.5"
+      },
+      {
+        "id": "725cd90f-c673-4724-a421-e4c71b68f8f6",
+        "label": "3.5"
+      },
+      {
+        "id": "1e3b09dd-a1cc-40ff-a16d-a6ad353619be",
+        "label": "0 - 3.0"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "b9ac80e7-2a17-4a78-bd85-e984b5308850",
+    "valueGuidToChildrenGuids": {},
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "df2a94de-cdfc-4493-9c32-ec0bec03032e",
+        "label": "7.5 - 9.0"
+      },
+      {
+        "id": "b81cd8e9-ebb3-456a-a57f-55f7594c7dff",
+        "label": "7.0"
+      },
+      {
+        "id": "a25489e5-f27b-4db6-b1d0-700ad11cb183",
+        "label": "6.5"
+      },
+      {
+        "id": "9824a862-f010-423e-bbb9-3586684d4bee",
+        "label": "5.5"
+      },
+      {
+        "id": "8f55b733-ef15-4ea2-854c-8b695f605458",
+        "label": "5.0"
+      },
+      {
+        "id": "79cf497e-52ac-4c1a-962a-0caf933d6d12",
+        "label": "4.0 - 4.5"
+      },
+      {
+        "id": "c227d3c3-c636-4d58-9aaa-c3e3336301d4",
+        "label": "3.5"
+      },
+      {
+        "id": "fb56fdd3-f579-4409-ba79-37ada9d11f25",
+        "label": "0 - 3.0"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+
+  {
+    "id": "c7965042-cc5b-4445-8953-f051487aaba0",
+    "valueGuidToChildrenGuids": {},
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "c7965042-cc5b-4445-8953-f051487aaba0",
+        "label": "89 - 90"
+      },
+      {
+        "id": "eb7531c3-4c1c-41a1-9895-75d9f0158ab0",
+        "label": "82 - 88"
+      },
+      {
+        "id": "e64d4b10-1403-4a30-ad72-ffc9871d7a2a",
+        "label": "71 - 81"
+      },
+      {
+        "id": "e95599f2-22ce-4f98-b081-68d87fa26643",
+        "label": "60 - 70"
+      },
+      {
+        "id": "74e2bbb0-bac9-4762-ac4d-7890aa5c3a2a",
+        "label": "50 - 59"
+      },
+      {
+        "id": "8dab618f-c8be-4e50-aa66-af1415ad4977",
+        "label": "39 - 49"
+      },
+      {
+        "id": "ce5bf927-3279-481b-8c42-36c9ae5ee27d",
+        "label": "28 - 38"
+      },
+      {
+        "id": "498f9879-486b-4373-a976-ff7c234cc837",
+        "label": "0 - 27"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "df906bbd-2143-4e2a-b09c-d0ba593a1ae7"
+  },
+  {
+    "id": "723d39db-cf26-4c77-adc4-a3790bcf8d66",
+    "valueGuidToChildrenGuids": {},
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "f8cf2a3e-5d55-48b1-945a-7edf7af61226",
+        "label": "88 - 90"
+      },
+      {
+        "id": "694edc51-f103-465c-87eb-7d6c9c141d61",
+        "label": "78 - 87"
+      },
+      {
+        "id": "4e90802a-4100-4535-925f-001d7abd8fb9",
+        "label": "69 - 77"
+      },
+      {
+        "id": "2f1edb75-436d-4f60-9155-60a041e83f69",
+        "label": "60 - 68"
+      },
+      {
+        "id": "06faeffd-1b33-4b91-a3d0-182c68b97736",
+        "label": "51 - 59"
+      },
+      {
+        "id": "3aacd6d9-28ae-4ded-9092-8788852ca6a6",
+        "label": "42 - 50"
+      },
+      {
+        "id": "81309e1b-c397-4021-9a5f-7e5abf0b87c8",
+        "label": "33 - 41"
+      },
+      {
+        "id": "098090ed-9d23-455c-8992-f8096622cb05",
+        "label": "0 - 32"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "6331041b-0c12-4306-8da0-02851b78de45",
+    "valueGuidToChildrenGuids": {},
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "d16f8c3c-8e5c-4e06-bd16-a9331d657543",
+        "label": "89 - 90"
+      },
+      {
+        "id": "c026e322-f31c-47ec-acaf-6981a4fad686",
+        "label": "84 - 88"
+      },
+      {
+        "id": "c34317cf-67a3-42c3-9b26-4b67dace4b39",
+        "label": "76 - 83"
+      },
+      {
+        "id": "9be33914-abab-45e1-b44b-4dcc5a2f9cfd",
+        "label": "68 - 75"
+      },
+      {
+        "id": "26ca4d0c-f6ab-46bd-8d74-f468faad5abc",
+        "label": "59 - 67"
+      },
+      {
+        "id": "c0788c36-c0f5-4ed9-812a-ec2f8ce781f3",
+        "label": "51 - 58"
+      },
+      {
+        "id": "2a237806-2449-4c6c-adbb-dc2a285aeb89",
+        "label": "42 - 50"
+      },
+      {
+        "id": "579855a2-277f-4910-8c8e-59f73bc814f3",
+        "label": "0 - 41"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "5ca39c8d-0dee-432f-91d8-3989ee5bd708",
+    "valueGuidToChildrenGuids": {},
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "78d7727b-74f7-427b-ac60-4af59f6e91d1",
+        "label": "90"
+      },
+      {
+        "id": "448f0c02-1936-4b32-bf07-bb68270a376e",
+        "label": "88 - 89"
+      },
+      {
+        "id": "de79864c-2a98-4fe4-97f5-a2d5b2cec61d",
+        "label": "79 - 87"
+      },
+      {
+        "id": "01d1a622-7372-48cc-a589-bd05b49ede56",
+        "label": "69 - 78"
+      },
+      {
+        "id": "8276d4c3-f4dc-4cea-bed3-e759fad4c2f5",
+        "label": "60 - 68"
+      },
+      {
+        "id": "c87b713b-88cf-48d2-b07e-2dbf73405eb2",
+        "label": "51 - 59"
+      },
+      {
+        "id": "7b025a79-2ec4-425e-bd9d-ffc82102a45a",
+        "label": "41 - 50"
+      },
+      {
+        "id": "8aafc7b9-6659-4be6-a9b9-ee3234006788",
+        "label": "0 - 40"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+
+  {
+    "id": "b8d20231-29c5-4763-a00e-1c8e38f5ee2f",
+    "valueGuidToChildrenGuids": {},
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "f0736534-9686-4add-a57b-db7423e6f808",
+        "label": "316 - 360"
+      },
+      {
+        "id": "8d78b011-d605-4f18-9862-dcc223c225f2",
+        "label": "298 - 315"
+      },
+      {
+        "id": "f7183a0b-e372-4f1d-bff3-350da380ad7b",
+        "label": "280 - 297"
+      },
+      {
+        "id": "35f9c0cb-a9e0-43f2-b9bd-cbe0f6407d65",
+        "label": "249 - 279"
+      },
+      {
+        "id": "d1785e82-48b3-4506-9804-d426e5e58d7d",
+        "label": "217 - 248"
+      },
+      {
+        "id": "d4948e65-ae5a-4420-9c20-763b1c6c277d",
+        "label": "181 - 216"
+      },
+      {
+        "id": "f2248fd7-ea33-4ce4-8c82-121670d31240",
+        "label": "145 - 180"
+      },
+      {
+        "id": "5acb5f73-34d8-43c5-bc24-1341cc6a3c6c",
+        "label": "0 - 144"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "fee9179c-4983-4b78-a33c-c797923e6430",
+    "valueGuidToChildrenGuids": {},
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "7d3715da-09d1-4688-b432-cfabb605c7cc",
+        "label": "263 - 300"
+      },
+      {
+        "id": "73be21d3-29b4-45c5-8992-c0f86afaa568",
+        "label": "248 - 262"
+      },
+      {
+        "id": "2cbd3238-5d6f-49c2-acad-f51f89c148cc",
+        "label": "233 - 247"
+      },
+      {
+        "id": "60ec5297-5fc7-4ec4-a5c3-b89995003926",
+        "label": "207 - 232"
+      },
+      {
+        "id": "7b12738b-1c14-4846-8ccb-7ecc1261dc11",
+        "label": "181 - 206"
+      },
+      {
+        "id": "e33c4c0a-cbb9-4918-9ce3-6bb534c7a9d0",
+        "label": "151 - 180"
+      },
+      {
+        "id": "91785619-64ed-47b0-b7fc-f76e7cbca68f",
+        "label": "121 - 150"
+      },
+      {
+        "id": "ee92452b-948c-42f7-90d6-f52acd8ae603",
+        "label": "0 - 119"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "48bf3bc1-a851-4d99-ad7e-402717f9097e",
+    "valueGuidToChildrenGuids": {},
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "92fb0440-5164-4743-bc06-a7c22c6f32fb",
+        "label": "393 - 450"
+      },
+      {
+        "id": "91449d5a-0d93-48d2-940c-6274cbcfc12f",
+        "label": "371 - 392"
+      },
+      {
+        "id": "aa27bdcf-b5d8-4242-a1d2-2a99d03bc462",
+        "label": "349 - 370"
+      },
+      {
+        "id": "a687faf3-f3cb-443a-9f7d-6038aec840f9",
+        "label": "310 - 348"
+      },
+      {
+        "id": "bc51bcbd-b95d-41bc-9942-964705df1e5e",
+        "label": "271 - 309"
+      },
+      {
+        "id": "169521b2-d569-4d88-9210-5ddcd68a01c0",
+        "label": "226 - 270"
+      },
+      {
+        "id": "6651983d-a789-45ec-a7a5-63e59ae99a78",
+        "label": "181 - 225"
+      },
+      {
+        "id": "1ffdc106-4192-4d81-9d59-0b0fd230fa80",
+        "label": "0 - 180"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "844a5007-4e49-4410-8a88-b271e67fc6bd",
+    "valueGuidToChildrenGuids": {},
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "115e670c-c6bb-47de-a34d-98fc857aa81b",
+        "label": "393 - 450"
+      },
+      {
+        "id": "bcc41b5d-2692-4c05-b703-43ef91a1e0d2",
+        "label": "371 - 392"
+      },
+      {
+        "id": "54d52b14-a489-47fe-826c-421528489dd7",
+        "label": "349 - 370"
+      },
+      {
+        "id": "73057693-ccf0-49f4-b608-a20dce81e1f5",
+        "label": "310 - 348"
+      },
+      {
+        "id": "80692fb3-633b-4f18-860c-05de03e15c07",
+        "label": "271 - 309"
+      },
+      {
+        "id": "9cbf2078-8051-42cb-9307-f007a04acece",
+        "label": "226 - 270"
+      },
+      {
+        "id": "b9b1bfc1-4769-486f-a176-5e50c08877f6",
+        "label": "181 - 225"
+      },
+      {
+        "id": "a47bd5b6-c9b5-4078-b795-488e9e6acdfd",
+        "label": "0 - 180"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+
+  {
+    "id": "1ad23ff6-0fd8-4dd9-b5d9-db77381e7701",
+    "valueGuidToChildrenGuids": {},
+    "label": "Speaking",
+    "description": "",
+    "options": [
+      {
+        "id": "7553672b-0176-4298-b36f-d23d7aa92ead",
+        "label": "549 - 699"
+      },
+      {
+        "id": "31117425-ce0b-42a6-af0d-01f6ceeeb3cd",
+        "label": "523 - 548"
+      },
+      {
+        "id": "6a386c58-95a2-4c15-84a2-7b0a86e21449",
+        "label": "503 - 521"
+      },
+      {
+        "id": "a103fe2f-d95d-4d79-92f7-cf5be11bd010",
+        "label": "458 - 502"
+      },
+      {
+        "id": "471b34a1-8eea-4ceb-93f4-48f0cf590d65",
+        "label": "398 - 457"
+      },
+      {
+        "id": "ea163d4e-29f3-4977-9b9a-f13f89b887de",
+        "label": "369 - 397"
+      },
+      {
+        "id": "bd3931c8-da20-41e8-8e58-5b1e79db467f",
+        "label": "331 - 368"
+      },
+      {
+        "id": "93ca28a2-de03-433a-92a6-ae5cb90cdfc1",
+        "label": "0 - 330"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "7905c43d-2ba2-445a-89df-cd478b29bd71",
+    "valueGuidToChildrenGuids": {},
+    "label": "Listening",
+    "description": "",
+    "options": [
+      {
+        "id": "b03b4aa0-d53e-4476-82d7-e6951866365a",
+        "label": "549 - 699"
+      },
+      {
+        "id": "bb521ceb-bf6d-492b-9808-c2cf71e8c231",
+        "label": "524 - 548"
+      },
+      {
+        "id": "ddf89509-1b58-4f97-a2ed-505913f2278b",
+        "label": "499 - 523"
+      },
+      {
+        "id": "751cbf0b-583b-48ea-8b25-424af70a2cc4",
+        "label": "453 - 498"
+      },
+      {
+        "id": "63490327-02da-496e-b0e5-604ec1d85e66",
+        "label": "406 - 452"
+      },
+      {
+        "id": "65d84553-acd0-46c0-a84c-5b57aa15d71b",
+        "label": "375 - 405"
+      },
+      {
+        "id": "021d0bf0-d322-4e2b-9881-f91ce730062f",
+        "label": "342 - 374"
+      },
+      {
+        "id": "a44cc49e-822d-4dde-b654-a8d3cf8d975e",
+        "label": "0 - 341"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "07dfc75e-2eb1-4288-a3e0-663502280ef9",
+    "valueGuidToChildrenGuids": {},
+    "label": "Reading",
+    "description": "",
+    "options": [
+      {
+        "id": "bceb6553-93ee-415e-a753-1e9bdfa98fed",
+        "label": "16 - 20"
+      },
+      {
+        "id": "1a771865-cd11-4497-adc4-3f1965f1f0c8",
+        "label": "14 - 15"
+      },
+      {
+        "id": "6aa37750-e12e-4bf5-bcfa-d94b8832c745",
+        "label": "12 - 13"
+      },
+      {
+        "id": "fca12f7c-4f6f-4e17-a1a6-ddf3844658c8",
+        "label": "10 - 11"
+      },
+      {
+        "id": "3b76129a-64bb-4fb3-971b-2821a50333cd",
+        "label": "7 - 9"
+      },
+      {
+        "id": "030a2887-cf8a-442f-874b-44adddc6556c",
+        "label": "6"
+      },
+      {
+        "id": "3d331dc2-0924-4777-86a3-927251f99097",
+        "label": "4-5"
+      },
+      {
+        "id": "2c4fd2c7-1ff8-4caa-83c3-a2c07e4677af",
+        "label": "0-3"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "5bfc1f42-739d-40dc-97ac-4675a460e6c5",
+    "valueGuidToChildrenGuids": {},
+    "label": "Writing",
+    "description": "",
+    "options": [
+      {
+        "id": "6f5aeb35-2c3d-4288-8127-c83d4af41b1d",
+        "label": "16 - 20"
+      },
+      {
+        "id": "e83abe92-b0ab-4929-bf23-e999f7abd108",
+        "label": "14 - 15"
+      },
+      {
+        "id": "71eeb026-7f4a-4738-a6ea-34a8fe609e66",
+        "label": "12 - 13"
+      },
+      {
+        "id": "a329c1e3-1201-45c2-a348-1153943cdf21",
+        "label": "10 - 11"
+      },
+      {
+        "id": "581d7f98-d331-403f-bee9-fc830eb24a0a",
+        "label": "7 - 9"
+      },
+      {
+        "id": "47731bbb-eeca-48a8-b5dc-313f8579d4cc",
+        "label": "6"
+      },
+      {
+        "id": "2f3af662-05e9-4602-8413-5e35c1b6ae49",
+        "label": "4-5"
+      },
+      {
+        "id": "cb850782-0258-4b29-8e15-faef7b36ca09",
+        "label": "0-3"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+
+  {
+    "id": "e68a41e3-b856-488e-ab1b-0a98590a7819",
+    "valueGuidToChildrenGuids": {},
+    "label": "iii. Do you have other language test results?",
+    "description": "",
+    "options": [
+      {
+        "id": "cfc18bb1-dc70-4f5d-a0ad-c3b33a299207",
+        "label": "CELPIP-G"
+      },
+      {
+        "id": "beb86543-06b0-4409-b45d-880f1dca982f",
+        "label": "IETLS"
+      },
+      {
+        "id": "2f267d10-7442-4d11-ad75-6c360030afde",
+        "label": "PTE Core"
+      },
+      {
+        "id": "5e0e89af-f129-4b63-b0ad-d5989bdcf85a",
+        "label": "Not applicable"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+
+  {
+    "id": "81f3a357-3fa7-4efa-8a56-588778b6fa2a",
+    "valueGuidToChildrenGuids": {},
+    "label": "iii. Do you have other language test results?",
+    "description": "",
+    "options": [
+      {
+        "id": "ae93b90b-22c9-4bbb-a697-94e9e6fe5082",
+        "label": "TEF Canada"
+      },
+      {
+        "id": "1793a7d0-09eb-4ae5-91ae-46cbbe40e02c",
+        "label": "TCF Canada"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "26bb129c-4af2-4294-a59d-ed24907895d0",
     "valueGuidToChildrenGuids": {
-        "123e4567-e89b-12d3-a456-426614174034": [
-            "123e4567-e89b-12d3-a456-426614174016"
-        ]
     },
     "label": "i. In the last 10 years, how many years of skilled work experience in Canada do you have? ",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174033",
+        "id": "fa81fba0-068d-4032-8796-7c978d5bb9c3",
+        "label": "None or less than a year"
+      },
+      {
+        "id": "34d1c2cb-42cb-4309-96e4-d551e90e4d88",
         "label": "1 year"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174034",
+        "id": "6db3830d-ff33-413c-97a9-dbf6328f7fdd",
         "label": "2 years"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174035",
+        "id": "ca37560f-8e35-48fe-b839-4444735a7ee5",
         "label": "3 years"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174036",
+        "id": "986fb062-de8e-4c44-bdd4-941369621066",
         "label": "4 years"
+      },
+      {
+        "id": "08921135-c467-4db0-a43d-4deda73b8259",
+        "label": "5 years or more"
       }
     ],
     "value": null,
     "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174008"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174016",
+    "id": "986fb062-de8e-4c44-bdd4-941369621066",
     "valueGuidToChildrenGuids": {
 
     },
@@ -379,300 +1334,242 @@
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174037",
+        "id": "08921135-c467-4db0-a43d-4deda73b8259",
         "label": "1 year"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174038",
+        "id": "fbb821cc-f599-45e3-899f-1afe6cee1508",
         "label": "2 years"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174039",
+        "id": "2c634b80-93c6-45f5-845a-6ff6e04e4816",
         "label": "3 years or more"
       }
     ],
     "value": null,
-    "expressionScore":
-    [
-      {
-        "expression": true,
-        "score": 10
-      }
-    ],
+    "expressionScore": [],
     "score": 0,
-    "parent": "123e4567-e89b-12d3-a456-426614174015"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174017",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174041": [
-        "123e4567-e89b-12d3-a456-426614174018"
-      ]
-    },
-    "label": "i. Do you have a certificate of qualification from a Canadian province, territory or federal body?",
+    "id": "e46de887-424d-42ca-b392-e642231bd9d7",
+    "valueGuidToChildrenGuids": {},
+    "label": "7) Do you have a certificate of qualification from a Canadian province, territory or federal body?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174040",
+        "id": "f689f36e-6432-406b-9fe6-99a9a8e312d2",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174041",
+        "id": "0806b739-9d2e-4c8a-ac4a-9f258869f9fa",
         "label": "No"
       }
     ],
     "score": 0,
     "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174016"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174018",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174043": [
-        "123e4567-e89b-12d3-a456-426614174019"
-      ]
-    },
-    "label": "ii. Do you have a valid job offer supported by a Labour Market Impact Assessment (LMIA)?",
+    "id": "22db8ea3-b45e-40b3-ae07-d5e1baa0840c",
+    "valueGuidToChildrenGuids": {},
+    "label": "8) Do you have a valid job offer supported by a Labour Market Impact Assessment (if needed)?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174042",
+        "id": "da2883ca-bbbc-414b-9740-ba74d905c550",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174043",
+        "id": "84af0923-6de2-42f8-bec4-ebe7daa9d319",
         "label": "No"
       }
     ],
     "score": 0,
     "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174017"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174019",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174045": [
-        "123e4567-e89b-12d3-a456-426614174020"
-      ]
-    },
-    "label": "iii. Do you have a nomination certificate from a province or territory?",
+    "id": "2b72720d-2430-4e79-bb2a-bf53ed3d2acd",
+    "valueGuidToChildrenGuids": {},
+    "label": "8a) Which NOC TEER is the job offer?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174044",
+        "id": "5fe2604f-057b-4303-8fa0-f855d2dcc2c3",
+        "label": "NOOC TEER 00 Major Group 00"
+      },
+      {
+        "id": "cc15d91d-1c1f-4c7c-9d81-ff8f90454436",
+        "label": "NOOC TEER 1, 2, or 3 or any TEER 0 other than 00 Major Group 00"
+      },
+      {
+        "id": "0a6e6b07-0acd-482e-a2eb-9e44a2fb12a6",
+        "label": "NOC TEER 4 or 5"
+      }
+    ],
+    "score": 0,
+    "expressionScore": [],
+    "value": null,
+    "parent": "todo"
+  },
+  {
+    "id": "37ecee29-965e-4f89-b1ed-e42a49721c3d",
+    "valueGuidToChildrenGuids": {},
+    "label": "9) Do you have a nomination certificate from a province or territory?",
+    "description": "",
+    "options": [
+      {
+        "id": "76e88bda-df8c-4760-af9c-22a7d1f9746c",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174045",
+        "id": "1b5e872c-33da-4c79-b8bd-1c75b50ca5d6",
         "label": "No"
       }
     ],
     "score": 0,
     "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174018"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174020",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174047": [
-        "123e4567-e89b-12d3-a456-426614174021"
-      ]
-    },
-    "label": "Do you or your spouse or common law partner (if they will come with you to Canada) have at least one brother or sister living in Canada who is a citizen or permanent resident?",
+    "id": "ca1b88ff-9543-460f-9784-7db9522bf154",
+    "valueGuidToChildrenGuids": {},
+    "label": "10) Do you or your spouse or common law partner (if they will come with you to Canada) have at least one brother or sister living in Canada who is a citizen or permanent resident?",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174046",
+        "id": "26c866c5-4005-488c-9952-98a20e4e7dcb",
         "label": "Yes"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174047",
+        "id": "61df47c1-8276-4f37-bd19-3bf5a6a8b048",
         "label": "No"
       }
     ],
     "score": 0,
     "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174019"
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174021",
+    "id": "61df47c1-8276-4f37-bd19-3bf5a6a8b048",
     "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174049": [
-        "123e4567-e89b-12d3-a456-426614174022"
+      "123e4567-e89b-12d3-a456-426614174014": [
+        "123e4567-e89b-12d3-a456-426614174005"
       ]
     },
-    "label": " What is the highest level of education for which your spouse or common-law partner's has:",
+    "label": "11) What is the highest level of education for which your spouse or common-law partner's has:",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174048",
-        "label": "Less than secondary (high) school"
+        "id": "f3ec415d-8d94-4fe3-85fc-ca0af4a98a7e",
+        "label": "None or less than secondary (high school)"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174049",
-        "label": "Secondary (high) school diploma"
+        "id": "ad214cde-16a3-46b4-ae84-ebe55f8a4819",
+        "label": "Secondary diploma (high school graduation)"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174050",
-        "label": "Bachelor's degree or diploma"
+        "id": "b7ce6e37-1671-49c5-895e-cbe4d923e70f",
+        "label": "One-year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "c5c1dc1f-248a-438c-8924-c83864aacdb4",
+        "label": "Two-year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "85eb6e2a-4bdf-48c6-a761-c1a6247dd6b1",
+        "label": "Bachelor's degree OR a three or more year program at a university, college, trade or technical school, or other institute"
+      },
+      {
+        "id": "4cfd9733-5247-44aa-a75e-9822073d5d50",
+        "label": "Two or more certificates, diplomas, or degrees. One must be for a program of three or more years"
+      },
+      {
+        "id": "a3ef3c99-ea32-4bbf-875d-2cc3e2e3e361",
+        "label": "Master's degree, or professional degree needed to practice in a licensed profession (For “professional degree,” the degree program must have been in: medicine, veterinary medicine, dentistry, optometry, law, chiropractic medicine, or pharmacy.)"
+      },
+      {
+        "id": "4a9f462d-02da-4f79-8d9b-59e6f8f3cead",
+        "label": "Doctoral level university degree (Ph.D.)"
       }
     ],
-    "score": 0,
-    "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174020"
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
   },
   {
-    "id": "123e4567-e89b-12d3-a456-426614174022",
+    "id": "4683f747-6285-4bd0-af60-af70a8600d8c",
     "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174051": [
-        "123e4567-e89b-12d3-a456-426614174023"
-      ]
     },
-    "label": "Official languages: Canada's official languages are English and French.",
-    "description": "i. Are your test results less than two years old? ",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174050",
-        "label": "Yes"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174051",
-        "label": "No"
-      }
-    ],
-    "score": 0,
-    "expressionScore": [],
-    "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174021"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174023",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174053": [
-        "123e4567-e89b-12d3-a456-426614174024"
-      ]
-    },
-    "label": "ii. Which language test did you take for your first official language?",
+    "label": "12) In the last 10 years, how many years of skilled work experience in Canada does your spouse/common-law partner have? ",
     "description": "",
     "options": [
       {
-        "id": "123e4567-e89b-12d3-a456-426614174052",
+        "id": "63147194-af40-40e5-b367-e2e2d7befa7a",
+        "label": "None or less than a year"
+      },
+      {
+        "id": "63147194-af40-40e5-b367-e2e2d7befa7a",
+        "label": "1 year"
+      },
+      {
+        "id": "a0ab1139-ca00-415b-9e5a-0a5c7c03a597",
+        "label": "2 years"
+      },
+      {
+        "id": "16e8a230-ca2d-4f6f-8795-b9a0a4fb8d4d",
+        "label": "3 years"
+      },
+      {
+        "id": "dafa95ea-3e2b-43b1-b1a0-949c282bb9af",
+        "label": "4 years"
+      },
+      {
+        "id": "a17ea423-0a3d-4cdb-8fc6-3c1ed9c98be8",
+        "label": "5 years or more"
+      }
+    ],
+    "value": null,
+    "expressionScore": [],
+    "score": 0,
+    "parent": "todo"
+  },
+  {
+    "id": "df906bbd-2143-4e2a-b09c-d0ba593a1ae7",
+    "valueGuidToChildrenGuids": {},
+    "label": "13) i) Did your spouse or common-law partner take a language test? If so, which one?",
+    "description": "",
+    "options": [
+      {
+        "id": "798fc5e3-5ab1-43d7-9c2f-ef4886666fab",
         "label": "CELPIP"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174053",
+        "id": "e4771fd5-c6fb-4290-ae24-51967ce5fd31",
         "label": "IELTS"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174054",
+        "id": "5756e9c4-e2f4-4902-b0bd-04d5bd72e0a9",
         "label": "TEF Canada"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174055",
+        "id": "596474b7-b0b1-45e7-b8db-4c6734d65606",
         "label": "TCF Canada"
-      }
-      ],
-    "score": 0,
-    "expressionScore": [],
-    "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174022"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174024",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174057": [
-        "123e4567-e89b-12d3-a456-426614174025"
-      ]
-    },
-    "label": "Speaking",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174056",
-        "label": "10-12"
       },
       {
-        "id": "123e4567-e89b-12d3-a456-426614174057",
-        "label": "9"
+        "id": "bd6836ff-601e-4328-a54b-aa0636281f98",
+        "label": "PTE Core"
       }
     ],
-    "score": 0,
-    "expressionScore": [],
     "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174023"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174025",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174059": [
-        "123e4567-e89b-12d3-a456-426614174026"
-      ]
-    },
-    "label": "Listening",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174058",
-        "label": "10-12"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174059",
-        "label": "9"
-      }
-    ],
-    "score": 0,
     "expressionScore": [],
-    "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174024"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174026",
-    "valueGuidToChildrenGuids": {
-  },
-    "label": "Reading",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174060",
-        "label": "10-12"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174061",
-        "label": "9"
-      }
-    ],
     "score": 0,
-    "expressionScore": [],
-    "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174025"
-  },
-  {
-    "id": "123e4567-e89b-12d3-a456-426614174027",
-    "valueGuidToChildrenGuids": {
-      "123e4567-e89b-12d3-a456-426614174063": [
-        "123e4567-e89b-12d3-a456-426614174028"
-      ]
-    },
-    "label": "Writing",
-    "description": "",
-    "options": [
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174062",
-        "label": "10-12"
-      },
-      {
-        "id": "123e4567-e89b-12d3-a456-426614174063",
-        "label": "9"
-      }
-    ],
-    "score": 0,
-    "expressionScore": [],
-    "value": null,
-    "parent": "123e4567-e89b-12d3-a456-426614174011"
+    "parent": "708c0e32-2986-4de6-a3ec-a02edd8206ab"
   }
 ]
